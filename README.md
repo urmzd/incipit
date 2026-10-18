@@ -3,7 +3,7 @@
   <p align="center">
     <em>Here begins the new career.</em>
     <br />
-    A CLI tool that converts structured resume data (JSON/Markdown) into polished PDFs, HTML, LaTeX, DOCX, and Markdown — with AI-powered review, optimization, and creation.
+    A CLI tool that converts structured resume data (JSON/Markdown) into polished PDFs, HTML, LaTeX, DOCX, and Markdown, with AI-powered review, optimization, and creation.
     <br /><br />
     <a href="https://github.com/urmzd/incipit/releases">Download</a>
     &middot;
