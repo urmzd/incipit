@@ -40,12 +40,12 @@
 
 ## Features
 
-- **Multiple Output Formats** — generate PDFs from LaTeX or HTML templates, plus native DOCX and Markdown
-- **Data-Driven** — provide resume content as JSON or Markdown; the tool handles rendering
-- **Template System** — modular templates with embedded assets; customize or create your own
-- **AI Prompts** — generate ready-to-use LLM prompts to review, optimize, and create resumes; pipe them to any LLM or agent
-- **Flexible Paths** — supports `~`, relative paths, and creates dated output workspaces with a `latest/` index pointing at the newest run
-- **Schema Generation** — export JSON Schema for IDE autocompletion and validation
+- **Multiple Output Formats**: generate PDFs from LaTeX or HTML templates, plus native DOCX and Markdown
+- **Data-Driven**: provide resume content as JSON or Markdown; the tool handles rendering
+- **Template System**: modular templates with embedded assets; customize or create your own
+- **AI Prompts**: generate ready-to-use LLM prompts to review, optimize, and create resumes; pipe them to any LLM or agent
+- **Flexible Paths**: supports `~`, relative paths, and creates dated output workspaces with a `latest/` index pointing at the newest run
+- **Schema Generation**: export JSON Schema for IDE autocompletion and validation
 
 ## Install
 
@@ -118,7 +118,7 @@ outputs/software_engineer/
 
 ### AI Commands
 
-The `ai` subcommands print self-contained LLM prompts to stdout — no API keys or network access required. Paste a prompt into any LLM, or pipe it to a CLI agent like `claude -p`.
+The `ai` subcommands print self-contained LLM prompts to stdout. No API keys or network access required. Paste a prompt into any LLM, or pipe it to a CLI agent like `claude -p`.
 
 ```bash
 # Prompt to convert plain text into structured JSON (schema embedded)
@@ -151,7 +151,7 @@ To convert freeform text to structured JSON, use `incipit ai create` to generate
 
 - **Go 1.25+**
 - **TeX Live** (only for LaTeX templates)
-- **Chromium** — auto-downloaded by Rod on first use, or set `ROD_BROWSER_BIN`
+- **Chromium**: auto-downloaded by Rod on first use, or set `ROD_BROWSER_BIN`
 - [just](https://github.com/casey/just) (optional, for helper commands)
 
 ## Templates
