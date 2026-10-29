@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.18.1 (2026-10-29)
+
+### Bug Fixes
+
+- **deps**: patch vulnerable Go dependencies (#21) ([f737f30](https://github.com/urmzd/incipit/commit/f737f307b35f02e09adaa17c450b6903fcd81e4c))
+
+### Misc
+
+- **deps**: bump actions/setup-go from 5 to 7 (#16) ([64a0ffe](https://github.com/urmzd/incipit/commit/64a0ffe64033895d021f2c7b30246b3c6677efb4))
+- **deps**: bump actions/checkout from 6 to 7 (#15) ([fdb7061](https://github.com/urmzd/incipit/commit/fdb706140d64f0b3184197b04c82562be9867ad9))
+- **release**: read the sr-releaser key from the release environment (#19) ([8a214fc](https://github.com/urmzd/incipit/commit/8a214fc3ea19f9f4cc51922e7bc263241d47784e))
+- upgrade urmzd/sr action to v9 (#18) ([deac09c](https://github.com/urmzd/incipit/commit/deac09c446aad06a02f6117f8fa9e33972fa82c4))
+
+[Full Changelog](https://github.com/urmzd/incipit/compare/v0.18.0...v0.18.1)
+
+
 ## 0.18.0 (2026-06-24)
 
 ### Features
