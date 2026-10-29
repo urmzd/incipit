@@ -1,15 +1,15 @@
 module github.com/urmzd/incipit
 
-go 1.25.5
+go 1.26.0
 
 require (
 	github.com/charmbracelet/lipgloss v1.1.1-0.20250404203927-76690c660834
 	github.com/go-rod/rod v0.116.2
 	github.com/invopop/jsonschema v0.13.0
 	github.com/spf13/cobra v1.6.1
-	github.com/yuin/goldmark v1.7.13
+	github.com/yuin/goldmark v1.8.6
 	golang.org/x/term v0.41.0
-	golang.org/x/text v0.30.0
+	golang.org/x/text v0.43.0
 )
 
 require (
@@ -20,7 +20,7 @@ require (
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/buger/jsonparser v1.6.1 // indirect
 	github.com/charmbracelet/colorprofile v0.4.1 // indirect
 	github.com/charmbracelet/x/ansi v0.11.6 // indirect
 	github.com/charmbracelet/x/cellbuf v0.0.15 // indirect
@@ -46,5 +46,5 @@ require (
 	github.com/ysmood/leakless v0.9.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
 )
