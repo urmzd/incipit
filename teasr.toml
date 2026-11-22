@@ -7,32 +7,32 @@ dir = "./showcase"
 type = "web"
 uri = "showcase/pdfs/modern-html.pdf"
 name = "modern-html"
-viewport = { width = 1200, height = 1553 }
-full_page = true
+viewport = { width = 1200, height = 1130 }
+full_page = false
 formats = [{ output_type = "png" }]
 
 [[scenes]]
 type = "web"
 uri = "showcase/pdfs/modern-latex.pdf"
 name = "modern-latex"
-viewport = { width = 1200, height = 1553 }
-full_page = true
+viewport = { width = 1200, height = 1130 }
+full_page = false
 formats = [{ output_type = "png" }]
 
 [[scenes]]
 type = "web"
 uri = "showcase/pdfs/modern-cv.pdf"
 name = "modern-cv"
-viewport = { width = 1200, height = 1553 }
-full_page = true
+viewport = { width = 1200, height = 1130 }
+full_page = false
 formats = [{ output_type = "png" }]
 
 [[scenes]]
 type = "web"
 uri = "showcase/pdfs/modern-docx.pdf"
 name = "modern-docx"
-viewport = { width = 1200, height = 1553 }
-full_page = true
+viewport = { width = 1200, height = 1130 }
+full_page = false
 formats = [{ output_type = "png" }]
 
 # ── Terminal demo ──
@@ -41,11 +41,34 @@ formats = [{ output_type = "png" }]
 type = "terminal"
 name = "demo-cli"
 theme = "dracula"
-cols = 100
-rows = 30
-command = "incipit generate assets/example_resumes/software_engineer.json -t modern-html -o outputs"
-formats = [{ output_type = "gif" }]
+cols = 110
+rows = 5
+formats = [{ output_type = "gif" }, { output_type = "png" }]
 frame_duration = 80
+
+[[scenes.interactions]]
+type = "type"
+text = "export PS1='$ ' && clear"
+hidden = true
+
+[[scenes.interactions]]
+type = "key"
+key = "enter"
+hidden = true
+
+[[scenes.interactions]]
+type = "wait"
+duration = 300
+hidden = true
+
+[[scenes.interactions]]
+type = "type"
+text = "incipit generate assets/example_resumes/software_engineer.json -t modern-html -o outputs 2>/dev/null | jq -r '.results[].path | sub(\".*/outputs/\"; \"\")'"
+speed = 30
+
+[[scenes.interactions]]
+type = "key"
+key = "enter"
 
 [[scenes.interactions]]
 type = "wait"
