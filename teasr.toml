@@ -48,21 +48,6 @@ frame_duration = 80
 
 [[scenes.interactions]]
 type = "type"
-text = "export PATH=/private/tmp/claude-501/-Users-urmzd-github/3f9bd60f-c0ec-4c85-8d5d-434305c269eb/scratchpad/bin:$PATH"
-hidden = true
-
-[[scenes.interactions]]
-type = "key"
-key = "enter"
-hidden = true
-
-[[scenes.interactions]]
-type = "wait"
-duration = 300
-hidden = true
-
-[[scenes.interactions]]
-type = "type"
 text = "export PS1='$ ' && clear"
 hidden = true
 
